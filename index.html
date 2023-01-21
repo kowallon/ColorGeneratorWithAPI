@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Montserrat:ital,wght@1,300&display=swap" rel="stylesheet">
+    <title>Color shceme generator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <div class="pickerDiv">
+            <input type="color" id="favcolor" name="favcolor">
+
+                <select name="schemeType" id="typeSelector">
+                    <option value="Monochrome">Monochrome</option>
+                    <option value="Monochrome-dark">Monochrome-dark</option>
+                    <option value="Monochrome-light">Monochrome-light</option>
+                    <option value="Analogic">Analogic</option>
+                    <option value="Complement">Complement</option>
+                    <option value="Analogic-complement">Analogic-complement</option>
+                    <option value="Triad">Triad</option>
+                </select>
+
+                <button id="submitBtn">Get color scheme</button>
+        </div>
+    </nav>
+        <div class="colorsWrapper" id="colorsWrapper">
+            <div class="color" id="1" style="background-color: aquamarine;"></div>
+            <div class="color" id="2" style="background-color: red;"></div>
+            <div class="color" id="3" style="background-color: goldenrod;"></div>
+            <div class="color" id="4" style="background-color: burlywood;"></div>
+            <div class="color" id="5" style="background-color: greenyellow;"></div>
+        </div>
+
+        <div class="colorsHexWrapper" id="colorsHexWrapper">
+            <p class="hexParagraph">123</p>
+            <p class="hexParagraph">456</p>
+            <p class="hexParagraph">789</p>
+            <p class="hexParagraph">101</p>
+            <p class="hexParagraph">102</p>
+        </div>
+
+
+
+    <script src="index.js"></script>
+</body>
+</html>
