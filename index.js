@@ -1,3 +1,6 @@
+//To do: add dark mode, add number of colors returned
+
+
 const selectedColor = document.getElementById("favcolor")
 const main = document.querySelector('main')
 const colorsWrapper = document.getElementById("colorsWrapper")
